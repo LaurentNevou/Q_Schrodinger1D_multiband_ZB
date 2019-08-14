@@ -1,5 +1,6 @@
 # Q_Schrodinger1D_multiband
 1D Schroedinger solver in semiconductor with non-parabolicity
+
 This code solves the time independent Schroedinger equation in 1D with the non-parabolicity, m=m(z,E).
 
 It uses 2 different algorithms that can be switched ON/OFF:
