@@ -304,7 +304,7 @@ end
 if FDM_kp8bands_Luttinger==1
     tic
     j=j+1;
-    [E{j},psi{j},Ev,psi_v] = Schrod_3bands_Luttinger_Kohn_f(z,V0,Eg,EP_L,Dso,F,g1,g2,g3,n,ac,av,bv,exx,ezz);
+    [E{j},psi{j},Ev,psi_v] = Schrod_3bands_Luttinger_Kohn_f(z,V0,Eg,EP_L,Dso,F,g1,g2,g3,n);
     s{j+2}=strcat('\fontsize{',num2str(FS),'}\color[rgb]{',num2str(col(j,:)),'}-> FDM kp8bands Luttinger: m=m(z,E)');
     j=j+1;
     E{j}=Ev;psi{j}=psi_v;
