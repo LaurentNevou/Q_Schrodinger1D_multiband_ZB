@@ -498,6 +498,6 @@ end
 xlim(xscale)
 ylim(yscale)
 
-text(0.5,(yscale(2)-yscale(1))*0.1+yscale(1),s);
+text(0.5,(yscale(2)-yscale(1))*0.5+yscale(1),s);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
