@@ -9,6 +9,8 @@ It uses 2 different algorithms that can be switched ON/OFF:
 
 -> The Scanning/Shooting method using the Euler approach
 
+Various models (1band, 2bands, 3bands and 6 bands in Kane or Luttinger approach) are available. 
+
 A database of the most common semiconductor III-V , IV-IV and II-VI is provided and can be adjusted.
 
 A strain model is included.
