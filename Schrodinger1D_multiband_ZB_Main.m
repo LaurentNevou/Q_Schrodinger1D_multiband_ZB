@@ -210,8 +210,8 @@ mlhL= 1 ./ (g1+2*g2);
 
 
 if PlotMass == 1
-  figure('position',[10 100 800 500]);
-  subplot(111,'fontsize',15)
+  figure('position',[10 100 800 500],'color','w');
+  subplot(1,1,1,'fontsize',15)
   hold on;grid on;
   idx=round(length(z)/2);
   %idx=1;
@@ -452,10 +452,10 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%figure('position',[-3500 100 1000 700]);
+%figure('position',[-3500 100 1000 700],'color','w');
 figure('position',[10 100 1000 700]);
 subplot(1,1,1,'fontsize',15)
-hold on;grid on;
+hold on;grid on;box on;
 
 xscale=[z(1) z(end)]*1e9;
 if PlotVB == 0
