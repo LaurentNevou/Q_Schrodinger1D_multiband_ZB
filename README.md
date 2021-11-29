@@ -2,7 +2,7 @@
 1D Schroedinger solver in semiconductor with non-parabolicity
 
 
-![Capture](https://user-images.githubusercontent.com/35040499/143848817-08e5c486-6687-4d39-a308-f3821c685ef5.PNG)
+![Capture](https://user-images.githubusercontent.com/35040499/143848990-e64d18b8-7e9c-42d9-a1ee-e9f590c8b106.PNG)
 
 
 This code solves the time independent Schroedinger equation in 1D with the non-parabolicity, m=m(z,E).
